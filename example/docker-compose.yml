@@ -1,0 +1,7 @@
+name: example
+
+services:
+  stress-mem:
+    image: ar2pi/stress-mem
+    mem_limit: 128m
+    memswap_limit: 128m
