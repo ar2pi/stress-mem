@@ -1,6 +1,6 @@
 # stress-mem
 
-[Dockerhub](https://github.com/ar2pi/stress-mem)
+[Dockerhub](https://hub.docker.com/repository/docker/ar2pi/stress-mem)
 
 A simple container to stress test memory.
 
