@@ -21,3 +21,7 @@ docker run -it --rm --memory=128m --memory-swap=128m ar2pi/stress-mem
 ```sh
 docker push ar2pi/stress-mem
 ```
+
+## @TODO:
+
+- [ ] make configurable memory increment step and wait time
