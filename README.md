@@ -4,22 +4,19 @@
 
 A simple container to stress test memory.
 
-## Build
-
-```sh
-docker build -t ar2pi/stress-mem .
-```
-
 ## Run
 
 ```sh
 docker run -it --rm --memory=128m --memory-swap=128m ar2pi/stress-mem
 ```
 
-## Push
+## Build
 
 ```sh
-docker push ar2pi/stress-mem
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  -t ar2pi/stress-mem \
+  --push .
 ```
 
 ## @TODO:
